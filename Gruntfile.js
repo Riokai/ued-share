@@ -9,9 +9,15 @@ module.exports = function(grunt) {
   grunt.initConfig({
 
     connect: {
-      options: 3000,
-      hostname: '0.0.0.0',
-      livereload: 35729
+      options: {
+        port: 3000,
+        hostname: '0.0.0.0',
+        livereload: 35729
+      },
+
+      livereload: {
+        
+      }
     },
 
     watch: {
@@ -28,7 +34,7 @@ module.exports = function(grunt) {
   });
 
   grunt.registerTask('demo01', [
-    'connection:livereload',
+    'connect:livereload',
     'watch:livereload'
   ]);
 
