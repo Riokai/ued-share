@@ -33,3 +33,7 @@ grunt demo02
 
 ### demo04
 [grunt-spritesmith](https://github.com/Ensighten/grunt-spritesmith)自动合并精灵图
+
+## 其它资源
+- [Grunt中文网](http://www.gruntjs.net/)
+- [Grunt常用插件](http://www.zhihu.com/question/21917526)
