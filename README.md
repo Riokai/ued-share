@@ -29,7 +29,7 @@ grunt demo02
 ```
 
 ### demo03
-[grunt-contrib-uglify](https://github.com/gruntjs/grunt-contrib-uglify插件实现JavaScript代码压缩，合并
+[grunt-contrib-uglify](https://github.com/gruntjs/grunt-contrib-uglify)插件实现JavaScript代码压缩，合并
 
 ### demo04
 [grunt-spritesmith](https://github.com/Ensighten/grunt-spritesmith)自动合并精灵图
