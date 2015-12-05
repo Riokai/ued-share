@@ -16,7 +16,7 @@ module.exports = function(grunt) {
       },
 
       livereload: {
-        
+
       }
     },
 
@@ -34,7 +34,12 @@ module.exports = function(grunt) {
   });
 
   grunt.registerTask('demo01', [
-    'connect:livereload',
+    'connect',
+    'watch:livereload'
+  ]);
+
+  grunt.registerTask('demo02', [
+    'connect',
     'watch:livereload'
   ]);
 
