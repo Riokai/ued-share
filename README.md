@@ -15,7 +15,7 @@ npm install
 ## 演示内容
 
 ### demo01
-[grunt-contrib-watch](https://github.com/gruntjs/grunt-contrib-watch)和[grunt-contrib-connect](https://github.com/gruntjs/grunt-contrib-connect)插件实现实时刷新页面
+[grunt-contrib-watch](https://github.com/gruntjs/grunt-contrib-watch)、[grunt-contrib-connect](https://github.com/gruntjs/grunt-contrib-connect)插件实现实时刷新页面
 
 ```shell
 grunt demo01

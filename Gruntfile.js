@@ -72,6 +72,14 @@ module.exports = function(grunt) {
           dest: 'demo02/css/'
         }]
       }
+    },
+
+    uglify: {
+      demo03: {
+        files: {
+          'demo03/dist.js': ['demo03/js/*.js']
+        }
+      }
     }
 
   });
@@ -87,5 +95,7 @@ module.exports = function(grunt) {
     'autoprefixer:demo02',
     'watch'
   ]);
+
+  grunt.registerTask('demo03', 'uglify:demo03');
 
 };
