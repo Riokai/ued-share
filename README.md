@@ -11,3 +11,8 @@ npm install -g grunt-cli
 ```shell
 npm install
 ```
+
+## 演示内容
+
+### demo01
+结合connect和watch插件实现实时刷新页面
