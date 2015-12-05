@@ -15,15 +15,21 @@ npm install
 ## 演示内容
 
 ### demo01
-结合watch和connect插件实现实时刷新页面
+watch和connect插件实现实时刷新页面
 
 ```shell
 grunt demo01
 ```
 
 ### demo02
-结合watch、sass、autoprefixer打造CSS开发环境
+watch、sass、autoprefixer打造CSS开发环境
 
 ```shell
 grunt demo02
 ```
+
+### demo03
+uglify插件实现JavaScript代码压缩，合并
+
+### demo04
+spritesmith自动合并精灵图
