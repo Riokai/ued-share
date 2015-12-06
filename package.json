@@ -20,6 +20,7 @@
     "grunt-contrib-uglify": "^0.9.2",
     "grunt-contrib-watch": "^0.6.1",
     "grunt-filerev": "^2.3.1",
+    "grunt-spritesmith": "^6.1.0",
     "grunt-usemin": "^3.1.1",
     "grunt-wiredep": "^2.0.0",
     "jit-grunt": "^0.9.1",

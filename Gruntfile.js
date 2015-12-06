@@ -2,7 +2,9 @@
 
 module.exports = function(grunt) {
 
-  require('jit-grunt')(grunt);
+  require('jit-grunt')(grunt, {
+    sprite: 'grunt-spritesmith'
+  });
 
   require('time-grunt')(grunt);
 
@@ -80,6 +82,14 @@ module.exports = function(grunt) {
           'demo03/dist.js': ['demo03/js/*.js']
         }
       }
+    },
+
+    sprite: {
+      demo04: {
+        src: 'demo04/images/*.png',
+        dest: 'demo04/images/sprites/icon.png',
+        destCss: 'demo04/css/sprites.css'
+      }
     }
 
   });
@@ -97,5 +107,7 @@ module.exports = function(grunt) {
   ]);
 
   grunt.registerTask('demo03', 'uglify:demo03');
+
+  grunt.registerTask('demo04', 'sprite:demo04');
 
 };
