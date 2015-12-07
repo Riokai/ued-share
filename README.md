@@ -1,6 +1,6 @@
 # UED分享之Grunt打造前端自动化工作流
 
-## 准备工作 
+## 准备工作
 
 通过NPM全局安装[grunt-cli](https://github.com/gruntjs/grunt-cli)插件
 ```shell
